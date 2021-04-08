@@ -1,22 +1,27 @@
 .advantage {
   display: flex;
+
+  & .item:nth-child(1) {
+    margin-left: 0px;
+  }
+
+  & > .item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+  }
 }
+
 .advan {
   padding-bottom: 0;
 }
-.advantage .item:nth-child(1) {
-  margin-left: 0px;
-}
-.advantage > .item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-}
+
 .advantage-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
 }
+
 .advantage-text {
   font-size: 14px;
   line-height: 1.71;

@@ -27,22 +27,22 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  &:focus {
+    fill: var(--accent-color);
+    outline: none;
+  }
 }
 
 .icon-close {
   width: 18px;
   height: 18px;
   fill: #000000;
-}
 
-.modal-close-btn:hover .icon-close,
-.modal-close-btn:focus .icon-close {
-  fill: var(--accent-color);
-}
-
-.modal-close-btn:focus {
-  fill: var(--accent-color);
-  outline: none;
+  &:hover .icon-close,
+  &:focus .icon-close {
+    fill: var(--accent-color);
+  }
 }
 
 .is-hidden {
