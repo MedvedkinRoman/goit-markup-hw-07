@@ -1,0 +1,39 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --accent-color: #2196f3;
+  --font-color: #212121;
+  --nav-color: #757575;
+  --icon-color: #afb1b8;
+  --section-pt: 94px;
+  --section-pb: 94px;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--font-color);
+  font-family: var(--main-font);
+}
+
+header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
+  font-family: var(--main-font);
+}
+
+main {
+  color: var(--font-color);
+  font-family: var(--main-font);
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
