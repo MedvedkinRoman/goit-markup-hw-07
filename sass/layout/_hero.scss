@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   padding: 200px 15px;
   margin-bottom: var(--section-pb);
   margin: 0 auto;
@@ -11,17 +11,18 @@
     url('../Images/Hero/img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-.hero-title {
-  margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 696px;
-  text-align: center;
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
 }

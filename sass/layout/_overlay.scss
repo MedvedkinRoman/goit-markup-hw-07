@@ -1,13 +1,3 @@
-.team-list-content-wrapper {
-  position: relative;
-  overflow: hidden;
-
-  &:hover .overlay,
-  &:focus .overlay {
-    transform: translateY(0%);
-  }
-}
-
 .overlay {
   font-family: var(--main-font);
   font-weight: 400;

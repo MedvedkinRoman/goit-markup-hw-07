@@ -1,4 +1,4 @@
-.hero-button {
+.hero__btn {
   margin: 0 auto;
   width: 200px;
   height: 50px;
@@ -13,7 +13,8 @@
   border: 0px var(--accent-color);
   cursor: pointer;
 
-  &::focus {
+  &:focus,
+  &:hover {
     outline: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
