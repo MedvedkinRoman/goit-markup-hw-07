@@ -361,12 +361,15 @@ a {
   align-items: center;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 header .container {
   display: flex;
   align-items: center;
   margin: 0 auto;
   padding: 24px 15px;
-  border-bottom: 1px solid #ececec;
 }
 
 .hero {
